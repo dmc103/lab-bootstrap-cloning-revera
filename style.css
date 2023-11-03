@@ -1,0 +1,110 @@
+@media (min-width: 992px) { 
+    .navbar-collapse {
+        justify-content: center;
+    }
+}
+
+
+#navbarSupportedContent {
+    margin: 35px;
+    text-align: center;
+}
+
+
+#navbarSupportedContent ul li a {
+    color: #575353;
+    font-size: 14px;
+    padding: 0 10px;
+    
+    
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-brand {
+    margin-left: 10%;
+    margin-right: 0;
+    font-weight: 700;
+    font-size: 200%;
+}
+
+
+.carousel-image-container {
+    position: relative;
+    
+}
+
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+}
+  
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    padding: 0 20%;
+    box-sizing: border-box;
+    margin: 5% 0;
+}
+
+.carousel-item img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(90%);
+}
+  
+
+#slide1, #slide2, #slide3 {
+    font-size: 200%;
+}
+
+
+.logo-container {
+    max-width: 280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo-container img {
+    filter: invert(100%);
+}
+
+
+
+h4, p {
+    text-align: center;
+    color: white;
+}
+
+#part2, #part3, #part4, #part5, #part6, #partA, #partB, #part7, #part8, #part9 {
+    color:#575353;
+}
+
+.section-title {
+    padding-top: 5%;
+    padding-bottom: 0;
+}
+
+#part2, #partA {
+    text-align: left;
+    padding-top: 0;
+    text-transform:uppercase;
+    font-weight: 700;
+}
